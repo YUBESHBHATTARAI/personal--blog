@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Mobile from "./mobile";
-import {useState} from 'react';
+
 
 export default function Header(){
    
