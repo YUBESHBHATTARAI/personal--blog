@@ -36,15 +36,15 @@ export default function Mobile() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="absolute top-[7vh] left-0 w-full  shadow-lg p-4 rounded-b-2xl flex flex-col items-center space-y-4 gap-[4rem] "
+              className="absolute top-[10vh] left-0 w-full  shadow-lg p-4 rounded-b-2xl flex flex-col items-center  gap-[2rem]  "
             >
-              <Link href="/" onClick={toggleMenu} className="hover:text-blue-500">
+              <Link href="/" onClick={toggleMenu} className="hover:text-blue-500 py-2">
                 Home
               </Link>
-              <Link href="/blogs" onClick={toggleMenu} className="hover:text-blue-500">
+              <Link href="/blogs" onClick={toggleMenu} className="hover:text-blue-500 py-2">
                 Blogs
               </Link>
-              <Link href="/contact" onClick={toggleMenu} className="hover:text-blue-500">
+              <Link href="/contact" onClick={toggleMenu} className="hover:text-blue-500 py-2">
                 Contact
               </Link>
             </motion.div>

@@ -1,13 +1,12 @@
-import Header from "@/components/header";
-// import Footer from "@/components/footer";
+import Blogs from "@/components/Blogs";
 
 export default function Home() {
 
 return(
   <>
   <div>
-    <Header />
-    {/* <Footer /> */}
+      
+    <Blogs />
   </div>
   </>
 )
